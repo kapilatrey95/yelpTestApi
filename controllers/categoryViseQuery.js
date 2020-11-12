@@ -23,9 +23,9 @@ router.get('/', async (req, res) => {
     businesses = JSON.parse(businesses)
     businesses = businesses.businesses
     let dataToSend = await getReviewForAllBusiness(businesses)
-    return res.send(sendJSON(dataToSend))
+    return res.status(200).json(sendJSON(dataToSend))
   } catch (e) {
-
+    res.status(500).json(sendJSON(e, false))
   }
 })
 
