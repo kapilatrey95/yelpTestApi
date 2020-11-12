@@ -1,0 +1,26 @@
+{
+  "name": "yelptestapi",
+  "version": "1.0.0",
+  "description": "Please find README.md",
+  "main": "app.js",
+  "scripts": {
+    "test": "node app.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/kapilatrey95/yelpTestApi.git"
+  },
+  "keywords": [
+    "yelp"
+  ],
+  "author": "kapilatrey95@gmail.com ( kapil sharma )",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/kapilatrey95/yelpTestApi/issues"
+  },
+  "homepage": "https://github.com/kapilatrey95/yelpTestApi#readme",
+  "dependencies": {
+    "express": "^4.17.1",
+    "request": "^2.88.2"
+  }
+}
